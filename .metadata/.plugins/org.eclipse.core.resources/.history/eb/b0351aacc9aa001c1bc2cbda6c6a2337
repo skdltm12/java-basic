@@ -1,0 +1,21 @@
+package sec2;
+
+public class dustmq2 {
+
+	public static void main(String[] args) {
+		int a = 0, dice = 0;
+		int d = (int)(Math.random()*6)+1;
+		int f = (int)(Math.random()*6)+1;
+		
+		while(a != 5) {
+			 
+		 	
+		}
+		System.out.println(dice);
+				
+		 }
+		 
+		 }
+	
+
+
