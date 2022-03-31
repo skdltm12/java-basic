@@ -1,0 +1,11 @@
+package sec1;
+
+public class car1 {
+
+	public static void main(String[] args) {
+		Car sonata = new Car("소나타");
+		
+		System.out.println(sonata.computeMoney());
+	}
+
+}

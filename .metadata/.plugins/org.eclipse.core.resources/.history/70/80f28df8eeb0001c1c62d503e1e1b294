@@ -1,0 +1,13 @@
+package sec1;
+
+public class Car1 {
+
+	public static void main(String[] args) {
+		Car sonata = new Car("소나타");
+		sonata.setStyle("승용차");
+		sonata.setUsetime(3);
+		
+		sonata.computeMoney(sonata.getStyle(),sonata.getUsetime() );
+	}
+
+}

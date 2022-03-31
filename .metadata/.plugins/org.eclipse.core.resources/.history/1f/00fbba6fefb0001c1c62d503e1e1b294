@@ -1,0 +1,16 @@
+package sec1;
+
+public class Car1 {
+
+	public static void main(String[] args) {
+		Car sonata = new Car("소나타");
+		sonata.setStyle("승용차");
+		sonata.setUsetime(3);
+		Car bmw = new Car("중형차");
+		sonata.setStyle("승합차");
+		sonata.setUsetime(5);
+		
+		sonata.computeMoney(sonata.getUsetime(),sonata.getStyle());
+	}
+
+}
