@@ -1,0 +1,63 @@
+package sec4;
+
+public class Printer {
+	int age;
+	boolean male;
+	double key;
+	String name;
+
+	Printer() {
+		this(0,false,0.0,"이름");
+	}
+	Printer(int age) {
+		this(age,false,0.0,"이름");
+	}
+	Printer(int age, boolean male) {
+		this(age,male,0.0,"이름");
+	}
+	Printer(int age, boolean male, double key) {
+		this(age,male,key,"이름");
+	}
+	Printer(int age, boolean male, double key, String name) {
+		this.age = age;
+		this.male = male;
+		this.key = key;
+		this.name = name;
+	}
+	public void println(int age,boolean male,double key,String name) {
+	System.out.println(age);
+	System.out.println(male);
+	System.out.println(key);
+	System.out.println(name);
+	}
+	
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public boolean isMale() {
+		return male;
+	}
+	public void setMale(boolean male) {
+		this.male = male;
+	}
+	public double getKey() {
+		return key;
+	}
+	public void setKey(double key) {
+		this.key = key;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+}

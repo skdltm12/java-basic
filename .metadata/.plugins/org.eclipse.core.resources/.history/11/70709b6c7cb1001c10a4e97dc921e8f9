@@ -1,0 +1,17 @@
+package sec2;
+
+public class SingletonEx1 {
+
+	public static void main(String[] args) {
+		//싱글톤은 객체를 한번에 한개만 생성할 수 있다.
+		Singleton obj1 = Singleton.getInstance();
+		Singleton obj2 = Singleton.getInstance();
+		if(obj1 == obj2) {
+			System.out.println("obj1 == obj2");
+		}else {
+				System.out.println("obj1 != obj2");
+			}
+		}
+	}
+
+

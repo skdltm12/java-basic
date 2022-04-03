@@ -1,0 +1,43 @@
+package sec1;
+ 
+	
+
+public class Account {
+	
+	
+	final static int MIN_BALANCE = 0;
+	final static int MAX_BALANCE = 1000000;
+	private int Balance;
+	
+
+	Account(){}
+	
+	int setBalance(int Balance) {
+		if(Balance >= MIN_BALANCE && Balance <= MAX_BALANCE) this.Balance = Balance;
+		return 0;
+	}
+	
+
+	
+		
+	
+	
+
+
+	public int getBalance() {
+		return Balance;
+	}
+
+
+	public void setBalance(int balance) {
+		Balance = balance;
+	}
+	
+	
+}
+
+
+	
+
+
+

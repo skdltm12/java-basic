@@ -1,0 +1,8 @@
+package sec4;
+
+public class Member0 {
+	String name, id, password;
+	int age;
+	
+
+}

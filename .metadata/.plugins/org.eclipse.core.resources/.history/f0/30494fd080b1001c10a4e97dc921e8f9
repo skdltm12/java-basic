@@ -1,0 +1,15 @@
+package sec2;
+//상수 : 값이 변하지 않는 데이터 -> final static
+public class Class4 {
+	final static double PI = 3.141592;
+	final static int  KB = 1024;
+	final static int MB = 1024 *KB;
+	final static long GB = 1024 * MB; 
+	final static long TB = 1024 * GB;
+	final static int Earth_radius = 6400;
+	final static double EARTH_SURFACE_AREA;
+	
+	static {
+		EARTH_SURFACE_AREA = PI * 4 * Earth_radius * Earth_radius ; 
+	}
+}

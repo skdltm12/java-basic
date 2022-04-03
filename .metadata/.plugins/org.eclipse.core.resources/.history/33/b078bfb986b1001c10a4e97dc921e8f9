@@ -1,0 +1,13 @@
+package sec3;
+
+import sec1.animal;
+
+public class AccessControl1 {
+
+	public static void main(String[] args) {
+		animal cat1 = new animal();
+			
+
+	}
+
+}

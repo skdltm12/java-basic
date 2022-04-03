@@ -1,0 +1,16 @@
+package sec2;
+
+public class ClassEx2 {
+
+	public static void main(String[] args) {
+		Class2 obj1 = new Class2();	//개체는 동적 할당
+		//Class2.method1(); (x)		
+		obj1.method1();	//(o)
+		//obj1.method2(); //(x)		
+		Class2.method2();	//(o)
+		//static : 객체를 생성하여 활용하는것이 아니고, 원래 클래스를 그대로 활용한다
+		
+
+	}
+
+}

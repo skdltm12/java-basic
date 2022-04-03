@@ -1,0 +1,9 @@
+package sec4;
+
+public class MemberEx1 {
+	Member User1 = new Member("홍길동", "hong");
+	Member User2 = new Member("강자바", "java");
+
+	}
+
+

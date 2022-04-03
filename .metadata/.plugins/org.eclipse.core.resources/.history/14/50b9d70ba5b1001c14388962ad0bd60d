@@ -1,0 +1,25 @@
+package sec4;
+
+public class Printer {
+	int age;
+	boolean male;
+	double key;
+	String name;
+
+	Printer(int age, boolean male) {
+		this(age,male,"키","이름");
+	}
+	Printer(int age, boolean male, double key) {
+		this(age,male,key,"이름");
+	}
+	Printer(int age, boolean male, double key, String name) {
+		this.age = age;
+		this.male = male;
+		this.key = key;
+		this.name = name;
+	}
+	
+	
+	
+
+}
