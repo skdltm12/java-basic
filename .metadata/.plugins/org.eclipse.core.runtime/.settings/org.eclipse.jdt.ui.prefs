@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Confirm.Car$Tire"><rhs name\="Confirm.Car$Tire"/></lhs><lhs name\="Confirm.Car$Engine"><rhs name\="Confirm.Car$Engine"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Confirm.Car$Tire"><rhs name\="Confirm.Car$Tire"/></lhs><lhs name\="Confirm.Car$Engine"><rhs name\="Confirm.Car$Engine"/></lhs><lhs name\="java.lang.IllegalArgumentException"><rhs name\="java.lang.NumberFormatException"/></lhs><lhs name\="java.lang.RuntimeException"><rhs name\="java.lang.NumberFormatException"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.lang.NumberFormatException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.lang.NumberFormatException"/></lhs><lhs name\="java.lang.NumberFormatException"><rhs name\="java.lang.NumberFormatException"/></lhs></history>
 content_assist_number_of_computers=12
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.formatterprofiles.version=21
